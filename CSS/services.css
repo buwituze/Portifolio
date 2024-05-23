@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 515px;
+
+}
+h2 {
+    
+    color: black;
+    padding-left: 20px;
+}
+.logo {
+    float: left;
+    /* margin-top: 1px; */
+    
+}
+.logo p {
+    color: white;
+    font-family: merienda;
+    font-weight: 300;
+    font-size: medium;
+    padding-left: 17px;
+}
+.list ul li {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: larger;
+}
+.link a {
+    text-decoration: none;
+    color: white;
+}
+.link a:hover {
+    border-radius: 5px;
+    color: rgb(48, 161, 231);
+}
+.list ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+}
+.list {
+    float: right;
+    padding-top: 8px;
+}
+.navbar {
+    background-color: black;
+    box-shadow: 0 2px 0 0 rgba(48, 161, 231, 0.068);
+    padding-bottom: 70px;
+   
+}
+h1 {
+    font-family: merienda;
+    font-weight: 500;
+    margin-left: 40%;
+    margin-top: 4% ;
+    color: white;
+}
+h1 span {
+    color: rgb(48, 161, 231);
+}
+.jobs h2 {
+    font-family: robto;
+    color: rgb(48, 161, 231);
+    font-size: larger;
+    text-align: center;
+    margin-top: 5%;
+    
+}
+.jobs p {
+    color: white;
+    font-family: roboto;
+    font-weight: 400;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+button {
+    background-color: rgb(48, 161, 231);
+    padding: 5px 20px;
+    border-radius: 9px;
+    border-color: rgb(48, 161, 231);
+    color: white;
+    border: none;
+}
+.ton :hover {
+    background-color: white;
+    color: rgb(48, 161, 231);
+    transition: 3s;
+}
+.ton {
+    padding-left: 130px;
+}
+
+.design {
+    background-color: rgb(23, 22, 24);
+    border-radius: 4px;
+    width: 30%;
+    height: 30%;
+}
+.develop {
+    background-color: rgb(23, 22, 24);
+    border-radius: 4px;
+    width: 30%;
+    height: 30%;
+}
+.backed {
+    background-color: rgb(23, 22, 24);
+    border-radius: 4px;
+    width: 30%;
+    height: 30%;
+}
+.jobs {
+    display: flex;
+    gap: 1%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+.jobs i {
+    color: white;
+}
+
+h2 span {
+    color: white;
+}
+
+
+@media screen and (max-width:830px) {
+
+    h2 {
+        
+        color: black;
+        font-size: xx-large;
+        padding-left: 5px;
+    }
+    .logo {
+        float: left;
+        /* margin-top: 1px; */
+        
+    }
+    .logo p {
+        color: white;
+        font-family: merienda;
+        font-weight: 300;
+        font-size: medium;
+        padding-left: 2px;
+    }
+    .list ul li {
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: larger;
+    }
+    .list ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        padding: 10px;
+        margin-left: -6%;
+        font-size: larger;
+    }
+    .list {
+        float: right;
+        padding-top: 8px;
+        
+    }
+    .nav-bar {
+        background-color: black;
+        box-shadow: 0 2px 0 0 rgba(48, 161, 231, 0.068);
+        padding-bottom: 70px;
+    }
+    h1 {
+        font-family: merienda;
+        font-weight: 500;
+        margin-left: 35%;
+        margin-top: 4% ;
+        color: white;
+        font-size: 50px;
+    }
+    h1 span {
+        color: rgb(48, 161, 231);
+    }
+    .jobs h2 {
+        font-family: robto;
+        color: rgb(48, 161, 231);
+        font-size: larger;
+        text-align: center;
+        margin-top: 5%;
+        padding-top: 10%;
+        font-size: 35px;
+
+        
+    }
+    .jobs p {
+        color: white;
+        font-family: roboto;
+        font-weight: 400;
+        margin-top: 5%;
+        margin-left: 3%;
+        font-size: xx-large;
+    }
+    button {
+        background-color: rgb(48, 161, 231);
+        padding: 15px 40px;
+        border-radius: 9px;
+        border-color: rgb(48, 161, 231);
+        color: white;
+        font-size: x-large;
+    }
+    .ton {
+        padding-left: 33%;
+        padding-top: 2%;
+    }
+    .ton :hover {
+    
+        background-color: white;
+        color: rgb(48, 161, 231);
+        transition: 3s;
+    
+    }
+    
+    .design {
+        background-color: rgb(23, 22, 24);
+        border-radius: 4px;
+        width: 80%;
+        height: 50%;
+    }
+    .develop {
+        background-color: rgb(23, 22, 24);
+        border-radius: 4px;
+        width: 80%;
+        height: 50%;
+    }
+    .backed {
+        background-color: rgb(23, 22, 24);
+        border-radius: 4px;
+        width: 80%;
+        height: 50%;
+    }
+    .jobs {
+        display: block;
+        gap: 1%;
+        margin-left: 20%;
+        margin-right: 5%;
+    }
+
+
+}

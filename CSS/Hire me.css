@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+}
+body {
+    background: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 515px;
+
+}
+
+h2 {
+    
+    color: black;
+    padding-left: 20px;
+}
+.logo {
+    float: left;
+    /* margin-top: 1px; */
+    
+}
+.logo p {
+    color: white;
+    font-family: merienda;
+    font-weight: 300;
+    font-size: medium;
+    padding-left: 17px;
+}
+.list ul li {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: larger;
+}
+.link a {
+    text-decoration: none;
+    color: white;
+}
+.link a:hover {
+    border-radius: 5px;
+    color: rgb(48, 161, 231);
+}
+.list ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+}
+.list {
+    float: right;
+    padding-top: 8px;
+}
+.navbar {
+    background-color: black;
+    box-shadow: 0 2px 0 0 rgba(48, 161, 231, 0.068);
+    padding-bottom: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0px;
+}
+h1 {
+    font-family: merienda;
+    color: rgb(48, 161, 231);
+    font-size: x-large;
+    margin-left: 5%;
+    margin-top: 7%;
+}
+.Resume h2 {
+    font-family: robto;
+    color: rgb(48, 161, 231);
+    font-size: larger;
+    margin-left: 20x;
+}
+.Resume p {
+    font-family: roboto;
+    color: white;
+    margin-left: 3%;
+
+}
+.Resume ul {
+    color: white;
+    font-family: roboto;
+    list-style: none ;
+}
+.Resume i {
+    padding-right: 1%;
+    color: rgb(48, 161, 231);
+}
+.uno strong {
+    /* margin-left: 10px; */
+    font-weight: 300;
+}
+.lists {
+    display: flex;
+    gap: 10%;
+    margin-left: 40px;
+}
+.tu ul {
+    margin-left: -10%;
+}
+.tu {
+    margin-left: -14%;
+}
+.uno ul {
+    margin-left: -10%;
+}
+.training {
+    margin-left: -14%;
+}
+.training ul {
+    margin-left: -10%;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(48, 161, 231);
+    
+    
+}
+
+.footer p {
+        margin-left: 45%;
+        font-family: merienda;
+        color: black;
+}
+.summary {
+    margin-left: 40px;
+    font-size: x-large;
+}
+i {
+    font-size: medium;
+}
+.line {
+    /* padding-bottom: 25%; */
+    width: -1%;
+    border: 2px solid rgba(11, 116, 148, 0.432) ;
+    margin-left: -3%;
+}
+
+@media screen  and (max-width: 830px){
+
+    body {
+        background: black;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 515px;
+    
+    }
+    
+    h2 {
+        
+        color: black;
+        font-size: xx-large;
+        padding-left: 5px;
+    }
+    .logo {
+        float: left;
+        /* margin-top: 1px; */
+        
+    }
+    .logo p {
+        color: white;
+        font-family: merienda;
+        font-weight: 300;
+        font-size: medium;
+        padding-left: 2px;
+    }
+    .list ul li {
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: larger;
+    }
+    .list ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        padding: 10px;
+        margin-left: -6%;
+        font-size: larger;
+    }
+    .list {
+        float: right;
+        padding-top: 8px;
+        
+    }
+    .nav-bar {
+        background-color: black;
+        box-shadow: 0 2px 0 0 rgba(48, 161, 231, 0.068);
+        padding-bottom: 70px;
+    
+    }
+    h1 {
+        font-family: merienda;
+        color: rgb(48, 161, 231);
+        font-size: 40px;
+        margin-left: 5%;
+        margin-top: 11%;
+        font-size: 50px;
+    }
+    .Resume h2 {
+        font-family: robto;
+        color: rgb(48, 161, 231);
+        font-size: 35px;
+        margin-left: 20x;
+    }
+    .Resume p {
+        font-family: roboto;
+        color: white;
+        margin-left: 3%;
+        font-size: xx-large; 
+    }
+    .Resume ul {
+        color: white;
+        font-family: roboto;
+        list-style: none ;
+        font-size: xx-large;
+    }
+    .Resume i {
+        padding-right: 1%;
+        color: rgb(48, 161, 231);
+    }
+    .uno strong {
+        margin-left: 0px;
+        font-weight: 300;
+    }
+    .lists {
+        display: block;
+        gap: 200px;
+        margin-left: 40px;
+    }
+    
+    .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 10%;
+        background-color: rgb(48, 161, 231);
+        
+        
+    }
+    
+    .footer p {
+            margin-left: 45%;
+            font-family: merienda;
+            color: black;
+    }
+    .summary {
+        margin-left: 40px;
+        font-size: x-large;
+    }
+    i {
+        font-size: medium ;
+           }
+    .training {
+
+        margin-left: 0%;
+
+    }
+    .uno {
+
+    }
+    .tu {
+        margin-left: 0%;
+    }
+}
